@@ -1,0 +1,22 @@
+#main-menu{
+    display: flex;
+    height: 1000px;
+    width: 500px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main-menu-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;  
+    padding: 20px;
+}
+
+.main-menu-bu8ttons button:hover {
+    background-color: #ddd;
+}
